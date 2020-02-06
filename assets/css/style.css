@@ -19,10 +19,13 @@ header{
  li a {
 	text-decoration: none;
 	color: #000;
+	padding: 10px;
+	margin-bottom: 5px;
+	
   }
   a:hover{
 	  color: darkblue;
-	  border-bottom: 3px solid black;
+	 
   }
    
   .profile-img {
@@ -61,15 +64,15 @@ header{
 	  height:200px;
 	  float:left;
   }
-  /* .main-section {
+  .main-section {
     float: left;
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0 0 40px 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-  } */
+  }
   
   footer {
     padding: 30px 0;
@@ -85,3 +88,30 @@ header{
   .container{
 	  padding:20px;
   }
+
+  @media screen and (max-width:980px){
+    
+	.main-section {
+	  float: left;
+	  width: 100%;
+	  max-width: 960px;
+	  padding: 30px;
+	  margin: 0 0 40px;
+	  background: #ffffff;
+	  border: 1px solid #dddddd;
+  }
+}
+
+  @media screen and (max-width:768px){
+    
+	.main-section {
+	  float: left;
+	  width: 100%;
+	  max-width: 960px;
+	  padding: 30px;
+	  margin: 0 0 40px;
+	  background: #ffffff;
+	  border: 1px solid #dddddd;
+  }
+  }
+
